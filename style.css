@@ -24,7 +24,7 @@ body{
     top: 70%;
 }
 .header{
-    padding-top: 7%;
+    padding-top: 3%;
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -43,7 +43,8 @@ body{
     text-align: center;
     font-family: 'Fraunces', sans-serif;
     font-weight: 600;
-    line-height: 0.5;
+    line-height: 0.9;
+    white-space: pre;
 }
 .left-icon{
     position: absolute;
@@ -118,7 +119,6 @@ h2{
 }
 .underline{
     border-bottom: solid #44FFA1;
-    margin-bottom:18px;
 }
 .first-middle{
     transform: translateY(20%);
@@ -152,7 +152,7 @@ h2{
      width: 50px;
     height: 50px;
     border-radius: 50%;
-    border: solid black 0.5px;
+    border: solid #584D62 0.5px;
     padding: 10px;
     box-sizing: border-box;
 }
@@ -167,7 +167,7 @@ h2{
      width: 50px;
     height: 50px;
     border-radius: 50%;
-    border: solid black 0.5px;
+    border: solid #584D62 0.5px;
     padding: 10px;
     box-sizing: border-box;
 }
@@ -182,7 +182,7 @@ h2{
      width: 50px;
     height: 50px;
     border-radius: 50%;
-    border: solid black 0.5px;
+    border: solid #584D62 0.5px;
     padding: 10px;
     box-sizing: border-box;
 }
