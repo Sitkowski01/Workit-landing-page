@@ -1,0 +1,306 @@
+body{
+    margin: 0;
+    font-family: 'Manrope', sans-serif;
+    font-size: 18px;
+}
+.container{
+    overflow: hidden;
+}
+.upper-case{
+    position: relative;
+    width: 100%;
+    height: 120vh;
+    background-image: url("assets/images/Rectangle.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    transform: translateY(-20%);
+    z-index: 1;
+}
+.phone{
+    width: 40%;
+    position: absolute;
+    right: 25%;
+    top: 70%;
+}
+.header{
+    padding-top: 3%;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    color: white;
+    transform: translateY(170px);
+    font-size: 32px;
+}
+.header-text{
+    display: flex;
+    justify-content: center;
+    color: white;
+    transform: translateY(230px);
+    font-size: 80px;
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    font-family: 'Fraunces', sans-serif;
+    font-weight: 600;
+    line-height: 0.5;
+}
+.left-icon{
+    position: absolute;
+    transform: translateY(60%) translateX(-40%);
+}
+.right-icon{
+    position: absolute;
+    left:92%;
+    top:60%;
+}
+.it-text{
+    font-weight: 200;
+}
+h3{
+    font-size: 32px;
+}
+h2{
+    font-size: 56px;
+}
+.mid-case{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    width: 100%;
+    height: 160vh;
+    position: relative;
+    z-index: 0;
+    transform: translateY(-40%);
+    background-image: url("assets/images/Rectangle1.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.lower-case{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    width: 100%;
+    height: 60vh;
+}
+.work-text{
+    padding-left: 10%;
+    font-weight: 800;
+}
+.apply-text{
+    padding-right: 5%;
+    font-weight: 700;
+}
+.apply-text:hover{
+    color:#44FFA1;
+}
+.learn-text{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    transform: translateY(300px);
+    padding: 1% 1%;
+    background-color: #44FFA1;
+    width: 10%;
+    margin: 0 auto;
+    font-weight: 600;
+}
+.learn-text:hover{
+    color: #44FFA1;
+    border: solid #44FFA1 2px;
+    background-color: hsl(273,85%,13%);
+}
+.underline{
+    border-bottom: solid #44FFA1;
+    margin-bottom:18px;
+}
+.first-middle{
+    transform: translateY(20%);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.second-middle{
+    transform: translateY(20%) translateX(5%);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.third-middle{
+    transform: translateY(20%);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.circle-one{
+    color: hsl(273,85%,13%);
+    margin-bottom: 12%;
+    font-family: 'Fraunces', sans-serif;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: solid black 0.5px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.circle-two{
+    color: hsl(273,85%,13%);
+    margin-bottom: 10%;
+    font-family: 'Fraunces', sans-serif;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: solid black 0.5px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.circle-three{
+    color: hsl(273,85%,13%);
+    margin-bottom: 10%;
+    font-family: 'Fraunces', sans-serif;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: solid black 0.5px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.upper-one{
+    color: hsl(273,85%,13%);
+    margin-bottom: 5%;
+    font-size: 32px;
+    font-family: 'Fraunces', sans-serif;
+    font-weight: 600;
+}
+.upper-two{
+    color: hsl(273,85%,13%);
+    margin-bottom: 5%;
+    font-size: 32px;
+    font-family: 'Fraunces', sans-serif;
+    font-weight: 600;
+}
+.upper-three{
+    color: hsl(273,85%,13%);
+    margin-bottom: 5%;
+    font-size: 32px;
+    font-family: 'Fraunces', sans-serif;
+    font-weight: 600;
+}
+.text-one{
+    line-height: 1.7;
+    text-align: center;
+    width: 80%;
+    color: hsl(273,85%,13%);
+}
+.text-two{
+    color: hsl(273,85%,13%);
+    line-height: 1.7;
+    text-align: center;
+    width: 70%;
+}
+.text-three{
+    color: hsl(273,85%,13%);
+    line-height: 1.7;
+    text-align: center;
+    width: 65%;
+}
+.founder{
+    width: 40%;
+}
+.positioning{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    transform: translateY(-30%);
+}
+.rectangle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    transform: translateY(-70%) translateX(25%);
+    background-color: hsl(273,85%,13%);
+    color: white;
+    width:52%;
+    padding: 5% 4%;
+}
+.rectangle-one{
+    font-size: 46px;
+    font-family: 'Fraunces', sans-serif;
+    font-weight: 600;
+    text-align: left;
+    margin-bottom: 6%;
+}
+.rectangle-text{
+    line-height: 1.7;
+}
+.rectangle-finish{
+    display: flex;
+    justify-content: center;
+    color: hsl(273,85%,13%);
+    margin-top: 6%;
+    width: 25%;
+    padding: 3% 3%;
+    background-color: #44FFA1;
+    font-weight: 600;
+    border: solid #44FFA1 2px;
+}
+.rectangle-finish:hover{
+    color: #44FFA1;
+    background-color: hsl(273,85%,13%);
+}
+.third-icon{
+    position: absolute;
+    top: 60%;
+    left: 60%;
+}
+.bottom-workit{
+    color: hsl(273,85%,13%);
+    font-size: 32px;
+    font-weight: 200;
+    transform: translateY(-300%);
+}
+.bottom-work{
+    font-weight:800;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: center;
+    justify-items: center;
+    transform: translateY(-300%);
+}
+.first-icon:hover path{
+  fill: #24053E;
+}
+.second-icon:hover path{
+    fill: #24053E;
+}
+.three-icon:hover path{
+    fill: #24053E;
+}
